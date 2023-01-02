@@ -1,4 +1,5 @@
 import './globals.css';
+import Nav from './Nav';
 
 export default function RootLayout({
   children,
@@ -12,6 +13,7 @@ export default function RootLayout({
         <h1 className='text-4xl font-bold mb-10'>
           Dan Black
         </h1>
+        <Nav />
         {children}
       </body>
     </html>
