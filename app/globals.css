@@ -2,8 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  a {
-    @apply text-sky-300;
+@layer components {
+  .nav-active {
+    @apply bg-zinc-800 text-zinc-300 !important;
+  }
+
+  .nav-link {
+    @apply capitalize px-3 py-1.5 rounded-lg text-zinc-600;
   }
 }
