@@ -47,7 +47,7 @@ export default function BooksPage() {
   return (
     <div className='space-y-5 text-lg'>
       <p>These are some of my favorite books.</p>
-      <ul>
+      <ul className='space-y-2'>
         {books.map(book => (
           <li key={book.title}>
             <a href={book.href} target='_blank'>
