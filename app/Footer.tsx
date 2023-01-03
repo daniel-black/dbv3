@@ -15,7 +15,7 @@ const links = [
 
 export default function Footer() {
   return (
-    <footer className="text-center text-xs space-y-3 text-zinc-600">
+    <footer className="text-center text-xs space-y-3 mt-10 text-zinc-600">
       <div className="flex space-x-5">
         {links.map(l => (
           <a key={l.name} href={l.url} target='_blank'>

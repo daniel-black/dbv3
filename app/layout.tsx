@@ -1,9 +1,10 @@
 import Nav from './Nav';
 import Footer from './Footer';
-import { Anybody } from '@next/font/google';
+import { Vollkorn, Quicksand } from '@next/font/google';
 import './globals.css';
 
-const anybody = Anybody();
+const vollkorn = Vollkorn({ subsets: ['latin'] });
+const quicksand = Quicksand({ subsets: ['latin'] });
 
 export default function RootLayout({
   children,
@@ -13,9 +14,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className='bg-zinc-900 text-zinc-50 text-lg py-20 px-4 w-full min-h-screen flex flex-col items-center'>
+      <body className={`bg-zinc-900 text-zinc-50 text-lg py-20 px-6 w-full min-h-screen flex flex-col items-center ${quicksand.className}`}>
         <header className='space-y-5 mb-10 text-left w-full max-w-lg'>
-          <h1 className={`text-3xl sm:text-4xl font-bold ${anybody.className}`}>Dan Black</h1>
+          <h1 className={`text-3xl sm:text-4xl font-bold ${vollkorn.className}`}>Dan Black</h1>
           <Nav />
         </header>
         <main className='w-full max-w-lg grow'>
