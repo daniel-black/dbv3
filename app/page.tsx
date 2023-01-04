@@ -15,15 +15,15 @@ const listItems = [
   },
   {
     emoji: '👨‍💻',
-    content: <span>Software Engineer working on an app called <a href="https://www.freightquote.com/book" target='_blank'>Freightquote</a></span>,
+    content: <span>Software Engineer working on an app called <a href="https://www.freightquote.com/book" className="link" target='_blank'>Freightquote</a></span>,
   },
   {
     emoji: '📚',
-    content: <span>Likes to <Link href={'/books'}>read</Link></span>,
+    content: <span>Likes to <Link href={'/books'} className='link'>read</Link></span>,
   },
   {
     emoji: '🔨',
-    content: <span>Likes to work on <Link href={'/projects'}>side projects</Link></span>,
+    content: <span>Likes to work on <Link href={'/projects'} className='link'>side projects</Link></span>,
   },
   {
     emoji: '🙅‍♂️',
