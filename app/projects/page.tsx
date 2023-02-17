@@ -6,18 +6,21 @@ export default function ProjectsPage() {
       <p>I like messing around with TypeScript/JavaScript, React, Next.js, and Tailwind.</p>
       <p>One of my goals this year is to pick up one of the popular, more performant languages like Go or Rust. We'll see how that goes : )</p>
       <ul className='space-y-2 list-disc ml-5'>
-          <li>
-            <a href='https://www.hacolyte.com' target='_blank' className='link'>Hacolyte</a> - A client for reading Hacker News stories
-          </li>
-          <li>
-            <a href="https://where-to-eta.vercel.app" target='_blank' className='link'>Where To?</a> - A very incomplete move-planning app
-          </li>
-          <li>
-            <a href="https://fan-wine.vercel.app" target='_blank' className='link'>Fan</a> and <a href="https://shop-one-iota.vercel.app" target='_blank' className='link'>Shop</a> - Two interfaces intended to work together as a system for placing orders at concession stands in stadiums. The two don't talk to each other at all lol
-          </li>
-          <li>
+        <li>
+          <a href='https://tack-weld.vercel.app' target='_blank' className='link'>Tack</a> - A tool for building TailwindCSS color palettes
+        </li>
+        <li>
+          <a href='https://www.hacolyte.com' target='_blank' className='link'>Hacolyte</a> - A client for reading Hacker News stories
+        </li>
+        <li>
+          <a href="https://where-to-eta.vercel.app" target='_blank' className='link'>Where To?</a> - A very incomplete move-planning app
+        </li>
+        <li>
+          <a href="https://fan-wine.vercel.app" target='_blank' className='link'>Fan</a> and <a href="https://shop-one-iota.vercel.app" target='_blank' className='link'>Shop</a> - Two interfaces intended to work together as a system for placing orders at concession stands in stadiums. The two don't talk to each other at all lol
+        </li>
+        <li>
           <a href="https://yallhiring.vercel.app" target='_blank' className='link'>Y'all Hiring?</a> - A job board for US Gov jobs. This one is under construction 👷‍♂️
-          </li>
+        </li>
       </ul>
     </div>
   );
