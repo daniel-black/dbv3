@@ -7,6 +7,9 @@ export default function ProjectsPage() {
       <p>One of my goals this year is to pick up one of the popular, more performant languages like Go or Rust. We'll see how that goes : )</p>
       <ul className='space-y-2 list-disc ml-5'>
         <li>
+          <a href="https://promocha.vercel.app" target='_blank' className='link'>ProMocha</a> A tool for managing promocodes
+        </li>
+        <li>
           <a href='https://tack-weld.vercel.app' target='_blank' className='link'>Tack</a> - A tool for building TailwindCSS color palettes
         </li>
         <li>
@@ -19,7 +22,7 @@ export default function ProjectsPage() {
           <a href="https://fan-wine.vercel.app" target='_blank' className='link'>Fan</a> and <a href="https://shop-one-iota.vercel.app" target='_blank' className='link'>Shop</a> - Two interfaces intended to work together as a system for placing orders at concession stands in stadiums. The two don't talk to each other at all lol
         </li>
         <li>
-          <a href="https://yallhiring.vercel.app" target='_blank' className='link'>Y'all Hiring?</a> - A job board for US Gov jobs. This one is under construction 👷‍♂️
+          <a href="https://yallhiring.vercel.app" target='_blank' className='link'>Y'all Hiring?</a> - An incomplete job board for US Gov jobs 👷‍♂️
         </li>
       </ul>
     </div>
