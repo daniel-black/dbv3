@@ -7,7 +7,7 @@ export default function ProjectsPage() {
       <p>One of my goals this year is to pick up one of the popular, more performant languages like Go or Rust. We'll see how that goes : )</p>
       <ul className='space-y-2 list-disc ml-5'>
         <li>
-          <a href="https://promocha.vercel.app" target='_blank' className='link'>ProMocha</a> A tool for managing promocodes
+          <a href="https://promocha-v2.vercel.app" target='_blank' className='link'>ProMocha</a> A tool for managing promocodes
         </li>
         <li>
           <a href='https://tack-weld.vercel.app' target='_blank' className='link'>Tack</a> - A tool for building TailwindCSS color palettes
