@@ -7,6 +7,9 @@ export default function ProjectsPage() {
       <p>One of my goals this year is to pick up one of the popular, more performant languages like Go or Rust. We'll see how that goes : )</p>
       <ul className='space-y-2 list-disc ml-5'>
         <li>
+          <a href="https://textmachina.vercel.app/" target='_blank' className='link'>Text Machina</a> ChatGPT but with style
+        </li>
+        <li>
           <a href="https://promocha-v2.vercel.app" target='_blank' className='link'>ProMocha</a> A tool for managing promocodes
         </li>
         <li>
