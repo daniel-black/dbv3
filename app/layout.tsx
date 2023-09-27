@@ -1,6 +1,6 @@
 import Nav from './Nav';
 import Footer from './Footer';
-import { Vollkorn, Quicksand } from '@next/font/google';
+import { Vollkorn, Quicksand } from "next/font/google";
 import './globals.css';
 import Link from 'next/link';
 
