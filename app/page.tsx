@@ -3,19 +3,16 @@ import Link from "next/link";
 const listItems = [
   {
     emoji: "🏔",
-    content: <span>Live in Denver</span>,
+    content: <span>Lives in Denver</span>,
   },
   {
     emoji: "❄️",
-    content: <span>Am from Minnesota</span>,
+    content: <span>From Minnesota</span>,
   },
   {
     emoji: "💻",
     content: (
-      <span>
-        Graduated from the University of Minnesota in 2022 with a computer
-        engineering degree
-      </span>
+      <span>Studied Computer Engineering at the University of Minnesota</span>
     ),
   },
   {
@@ -55,10 +52,6 @@ const listItems = [
         </Link>
       </span>
     ),
-  },
-  {
-    emoji: "🙅‍♂️",
-    content: <span>Abhors cooking</span>,
   },
 ];
 
