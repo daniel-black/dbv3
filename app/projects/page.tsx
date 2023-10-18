@@ -16,7 +16,7 @@ export default function ProjectsPage() {
       <ul className="space-y-2 list-disc ml-5">
         <li>
           <a
-            href="https://refactory-ochre.vercel.app/"
+            href="https://userefactory.com"
             target="_blank"
             rel="noreferrer"
             className="link"
@@ -25,7 +25,7 @@ export default function ProjectsPage() {
           </a>{" "}
           - Refactor code with the help of AI
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://textmachina.vercel.app/"
             target="_blank"
@@ -35,8 +35,8 @@ export default function ProjectsPage() {
             Text Machina
           </a>{" "}
           - ChatGPT but with style
-        </li>
-        <li>
+        </li> */}
+        {/* <li>
           <a
             href="https://promocha-v2.vercel.app"
             target="_blank"
@@ -46,7 +46,7 @@ export default function ProjectsPage() {
             ProMocha
           </a>{" "}
           - A tool for managing promocodes
-        </li>
+        </li> */}
         <li>
           <a
             href="https://tack-weld.vercel.app"
@@ -59,7 +59,12 @@ export default function ProjectsPage() {
           - A tool for building TailwindCSS color palettes
         </li>
         <li>
-          <a href="https://www.hacolyte.com" target="_blank" className="link">
+          <a
+            href="https://www.hacolyte.com"
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+          >
             Hacolyte
           </a>{" "}
           - A client for reading Hacker News stories
