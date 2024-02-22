@@ -7,9 +7,10 @@ export default function ProjectsPage() {
       </p>
       <p>
         I like learning new things and experimenting with different
-        technologies. Lately, I've been playing around with Go and Postgres.
+        technologies. Lately, I&apos;ve been playing around with Go and
+        Postgres.
       </p>
-      <p>Here are a couple of the projects I've worked on.</p>
+      <p>Here are a couple of the projects I&apos;ve worked on.</p>
       <ul className="space-y-2 list-disc ml-5">
         <li>
           <a
