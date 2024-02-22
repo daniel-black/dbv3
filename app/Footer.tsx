@@ -29,7 +29,7 @@ export default function Footer() {
           </a>
         ))}
       </div>
-      <div>{new Date().getFullYear()}</div>
+      <div>2024</div>
     </footer>
   );
 }

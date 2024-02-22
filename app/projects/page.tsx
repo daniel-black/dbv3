@@ -2,17 +2,14 @@ export default function ProjectsPage() {
   return (
     <div className="space-y-5 text-lg text-zinc-400">
       <p>
-        In 2023, I&apos;m trying to finish the things that I start. My Github
-        has entirely too many half-baked projects laying around... 😅
+        In my free time, I enjoy building projects with TypeScript, React,
+        Next.js, and Tailwind.
       </p>
       <p>
-        I like messing around with TypeScript/JavaScript, React, Next.js, and
-        Tailwind.
+        I like learning new things and experimenting with different
+        technologies. Lately, I've been playing around with Go and Postgres.
       </p>
-      <p>
-        One of my goals this year is to pick up one of the popular, more
-        performant languages like Go or Rust. We&apos;ll see how that goes :)
-      </p>
+      <p>Here are a couple of the projects I've worked on.</p>
       <ul className="space-y-2 list-disc ml-5">
         <li>
           <a
