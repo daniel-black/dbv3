@@ -14,6 +14,28 @@ export default function ProjectsPage() {
       <ul className="space-y-2 list-disc ml-5">
         <li>
           <a
+            href="https://jhhq.vercel.app"
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+          >
+            JHHQ
+          </a>{" "}
+          - (Job Hunt HQ) An app for keeping track of job applications
+        </li>
+        <li>
+          <a
+            href="https://crnapath.com"
+            target="_blank"
+            rel="noreferrer"
+            className="link"
+          >
+            CRNAPath
+          </a>{" "}
+          - Search app for Certified Registered Nurse Anesthetist programs
+        </li>
+        <li>
+          <a
             href="https://userefactory.com"
             target="_blank"
             rel="noreferrer"
